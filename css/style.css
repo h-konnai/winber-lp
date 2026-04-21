@@ -682,8 +682,13 @@ a {
   }
 }
 @media (max-width: 767px) {
-  /* Member Tierの説明文だけ広げる */
   .section-tier .section-sub {
-    max-width: 23em;
+    max-width: 21em;
+    line-height: 1.9;
+  }
+
+  .section-tier .section-sub br {
+    display: block;
+    margin-top: 0.6em;
   }
 }
