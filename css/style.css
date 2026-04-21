@@ -449,7 +449,7 @@ a {
 
   /* 本文テキスト全体 */
 .body-copy {
-  max-width: 26em;
+  max-width: 21.5em;
 }
 
 .body-copy p {
@@ -520,7 +520,7 @@ a {
   }
 
   .hero-lead {
-    max-width: 14em;
+    max-width: 22em;
     margin-top: 16px;
     font-size: 0.92rem;
     line-height: 1.8;
@@ -668,5 +668,10 @@ a {
 }
 .split-heading {
   line-height: 1.4;
+}
+  @media (max-width: 767px) {
+  .wide-text {
+    max-width: 21em;
+  }
 }
 }
