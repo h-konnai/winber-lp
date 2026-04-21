@@ -449,7 +449,7 @@ a {
 
   /* 本文テキスト全体 */
 .body-copy {
-  max-width: 19.5em;
+  max-width: 21.5em;
 }
 
 .body-copy p {
@@ -464,7 +464,7 @@ a {
 /* セクション下の補足文 */
 .section-sub,
 .last-copy {
-  max-width: 21em;
+  max-width: 20em;
   font-size: 0.9rem;
   line-height: 1.9;
 }
@@ -482,12 +482,12 @@ a {
 
 /* 会員カード内の説明だけ少し短く見せる */
 .tier-description {
-  max-width: 21.5em;
+  max-width: 23em;
 }
 
 /* Membership と Experience の本文だけ少し読みやすく */
 .section .content .body-copy {
-  max-width: 20.5em;
+  max-width: 23em;
 }
 
   /* HERO */
