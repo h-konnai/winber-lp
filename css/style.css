@@ -673,11 +673,11 @@ a {
 @media (max-width: 767px) {
   /* CROWDFUNDING内テキストだけ広げる */
   .cta-box .body-copy {
-    max-width: 21em;
+    max-width: 23em;
   }
 
   /* 最後の締めテキストだけ広げる */
   .last-copy {
-    max-width: 21em;
+    max-width: 23em;
   }
 }
