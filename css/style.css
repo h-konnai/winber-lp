@@ -447,18 +447,48 @@ a {
     color: rgba(255, 255, 255, 0.68);
   }
 
-  .body-copy {
-    max-width: 100%;
-  }
+  /* 本文テキスト全体 */
+.body-copy {
+  max-width: 17.5em;
+}
 
-  .body-copy p {
-    margin: 0 0 14px;
-    font-size: 0.94rem;
-    line-height: 1.9;
-    color: rgba(255, 255, 255, 0.88);
-    word-break: keep-all;
-    overflow-wrap: break-word;
-  }
+.body-copy p {
+  margin: 0 0 15px;
+  font-size: 0.93rem;
+  line-height: 2;
+  letter-spacing: 0.01em;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* セクション下の補足文 */
+.section-sub,
+.last-copy {
+  max-width: 18em;
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+/* カード本文 */
+.card p,
+.info-box li,
+.rule-card,
+.tier-description,
+.tier-list li,
+.cta-box .body-copy p {
+  font-size: 0.9rem;
+  line-height: 1.9;
+}
+
+/* 会員カード内の説明だけ少し短く見せる */
+.tier-description {
+  max-width: 16.5em;
+}
+
+/* Membership と Experience の本文だけ少し読みやすく */
+.section .content .body-copy {
+  max-width: 17em;
+}
 
   /* HERO */
   .hero {
