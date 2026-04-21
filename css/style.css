@@ -487,7 +487,7 @@ a {
 
 /* Membership と Experience の本文だけ少し読みやすく */
 .section .content .body-copy {
-  max-width: 17em;
+  max-width: 18.5em;
 }
 
   /* HERO */
