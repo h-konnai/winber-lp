@@ -681,3 +681,9 @@ a {
     max-width: 23em;
   }
 }
+@media (max-width: 767px) {
+  /* Member Tierの説明文だけ広げる */
+  .section-tier .section-sub {
+    max-width: 23em;
+  }
+}
