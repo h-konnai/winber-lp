@@ -520,7 +520,7 @@ a {
   }
 
   .hero-lead {
-    max-width: 22em;
+    max-width: 23em;
     margin-top: 16px;
     font-size: 0.92rem;
     line-height: 1.8;
@@ -669,9 +669,15 @@ a {
 .split-heading {
   line-height: 1.4;
 }
-  @media (max-width: 767px) {
-  .wide-text {
+}
+@media (max-width: 767px) {
+  /* CROWDFUNDING内テキストだけ広げる */
+  .cta-box .body-copy {
     max-width: 21em;
   }
-}
+
+  /* 最後の締めテキストだけ広げる */
+  .last-copy {
+    max-width: 21em;
+  }
 }
