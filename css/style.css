@@ -808,3 +808,23 @@ a {
     display: none;
   }
 }
+.entry-link {
+  display: inline-flex;
+  margin-top: 18px;
+  color: var(--accent);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  border-bottom: 1px solid rgba(216, 181, 122, 0.45);
+}
+
+.entry-link:hover {
+  color: var(--accent-strong);
+  border-bottom-color: var(--accent-strong);
+}
+
+@media (max-width: 767px) {
+  .entry-link {
+    margin-top: 14px;
+    font-size: 0.9rem;
+  }
+}
